@@ -8,7 +8,11 @@
   </head>
   <body>
     <p id="printarea"></p>
-    <button></button>
+    <button id="printbtn" onclick="handleClick()">PRINT</button>
+
+    <button onclick="readClipboard()">Paste</button>
+    <p class="clipboard-content"></p>
+    <button onclick="updateClipboard()">Edit</button>
     <script src="main.js"></script>
   </body>
 </html>
